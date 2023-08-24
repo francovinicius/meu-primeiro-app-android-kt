@@ -30,12 +30,12 @@ class MainActivity : Activity() {
         recyclerView.adapter = ListaProdutoAdapter(
             context = this, produtos = listOf(
                 Produto(
-                    nome = "testye",
+                    nome = "teste",
                     descricao = "test",
                     preco = BigDecimal("19.99")
                 ),
                 Produto(
-                    nome = "teste",
+                    nome = "teste1",
                     descricao = "test1",
                     preco = BigDecimal("89.99")
                 ),
